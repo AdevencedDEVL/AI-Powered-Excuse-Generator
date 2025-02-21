@@ -1,30 +1,12 @@
-# React + TypeScript + Vite
+# AI-Powered Excuse Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+A smart, context-aware excuse generator that helps users craft believable messages for various situations, with options to customize and share through different communication channels.
+Clean, single-screen interface with a prominent "Generate Excuse" button, situation dropdown (work/social/family), and customization fields for names and dates
+AI-powered text generation with toggles for tone (formal/casual) and urgency level
+Quick-share buttons for copying text, sending as email, or converting to voice message
+Modern, light-hearted design with playful illustrations and a calming color scheme
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![image](https://github.com/user-attachments/assets/ee409ec9-b94a-4c87-aa92-6c8f1bac1b42)
+![image](https://github.com/user-attachments/assets/d7a325c8-2ba0-4561-a3a1-f94cfb1b205f)
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
